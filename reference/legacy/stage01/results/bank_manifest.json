@@ -1,0 +1,33 @@
+{
+  "fingerprint": "e2204972f37a016e9b32151a998b6a0fcbc67c23a5bc2836181f9e0bfddc9366",
+  "signature": {
+    "graph_bank_version": 2,
+    "n_values": [
+      100,
+      200,
+      400,
+      500,
+      800,
+      2000,
+      7000
+    ],
+    "graphs_per_size": 250,
+    "target_average_degree": 6.0,
+    "minimum_average_degree": 3.0,
+    "connectivity_mode": "minimal_bridges",
+    "random_cut_ar_max": 0.82,
+    "mqlib_heuristics": [
+      "BURER2002",
+      "FESTA2002G",
+      "FESTA2002VNS",
+      "LAGUNA2009HCE"
+    ],
+    "mqlib_seeds": [
+      101,
+      202
+    ],
+    "mqlib_runtime_seconds": 2.0,
+    "master_seed": 20260623
+  },
+  "created_utc": "2026-06-23T21:35:19.134045+00:00"
+}

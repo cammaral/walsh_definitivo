@@ -1,0 +1,48 @@
+{
+  "backend": "ibm_fez",
+  "effective_shots": 32768,
+  "hardware_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "job": {
+    "backend": "ibm_fez",
+    "creation_date": {
+      "error": "TypeError(\"'datetime.datetime' object is not callable\")",
+      "unavailable": true
+    },
+    "instance": {
+      "error": "TypeError(\"'str' object is not callable\")",
+      "unavailable": true
+    },
+    "job_id": "d99b0v8tcv6s73dn3aa0",
+    "status": "QUEUED",
+    "tags": {
+      "error": "TypeError(\"'list' object is not callable\")",
+      "unavailable": true
+    },
+    "usage_estimation": {
+      "quantum_seconds": 110.736299828
+    }
+  },
+  "measurement_twirling": false,
+  "num_randomizations": 0,
+  "options": {
+    "dd_enable": false,
+    "dd_sequence": null,
+    "gate_twirling": false
+  },
+  "profile": "raw",
+  "readout_mitigation": false,
+  "requested_shots": 32768,
+  "submitted_utc": "2026-07-11T21:07:09.310573+00:00",
+  "zne": false
+}

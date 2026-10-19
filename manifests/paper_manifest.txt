@@ -1,0 +1,44 @@
+Walsh-PCE final paper provenance
+================================
+
+Stage 01
+Random-graph generation, deterministic connectivity repair,
+calibration/evaluation split, and MQLib references.
+
+Stage 02
+Hyperparameter calibration on 50 calibration graphs per size.
+
+Stage 03
+Complete-basis evaluation on 200 held-out graphs per size,
+10 coefficient initializations per graph.
+
+Stage 04
+Support-reduction study on the same 200 held-out graphs,
+5 initializations per sparse support.
+Final sparse configuration: B=1.
+
+Stage 05
+Gset benchmark.
+Final instances: G14, G23, G60, G64.
+Final sparse configuration: B=1.
+
+Stage 06
+Quantum-transfer validation.
+Strict statevector operating point: epsilon=0.02.
+Finite-shot operating point: epsilon=0.20.
+Transferred models: highest-raw-AR run for G14, G23, G60, G64.
+
+Hardware validation
+Backend: ibm_fez
+Primitive: SamplerV2
+Final job: d99b0v8tcv6s73dn3aa0
+Shots per circuit: 32768
+Initial layout: [145,141,136,142,143,144,146]
+Transpiler optimization level: 2
+Routing/layout: SABRE
+Scheduling: ALAP
+Dynamical decoupling: disabled
+Gate twirling: disabled
+Measurement twirling: disabled
+Readout mitigation: disabled
+ZNE: disabled

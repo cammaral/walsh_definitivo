@@ -1,0 +1,5 @@
+protocol_id,instance,init_seed,raw_cut,raw_AR,local_cut,local_AR,npz
+walsh_pce_final_B1,G14,77,3011.0,0.9827023498694516,3027.0,0.9879242819843342,results/stage_05/coefficients/G14/G14_seed077.npz
+walsh_pce_final_B1,G23,44,13208.0,0.9898081534772182,13287.0,0.9957284172661872,results/stage_05/coefficients/G23/G23_seed044.npz
+walsh_pce_final_B1,G60,110,13864.0,0.9771638003946996,13915.0,0.980758387369608,results/stage_05/coefficients/G60/G60_seed110.npz
+walsh_pce_final_B1,G64,110,8165.0,0.9330362244314936,8306.0,0.9491486687235744,results/stage_05/coefficients/G64/G64_seed110.npz

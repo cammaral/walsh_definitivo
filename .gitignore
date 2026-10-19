@@ -1,11 +1,29 @@
+# Python
 .venv/
-venv/
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# External dependencies
+.external/
+
+# Credentials
+.env
+.env.*
+!.env.example
+*credentials*
+*token*
+*apikey*
+
+# Temporary files
 .DS_Store
-
-results/*/runs/
-results/*/checkpoints/
-
 *.log
-*.tmp
+*.zip
+*.tar.gz
+
+# Reproducibility tests
+results/reproducibility/
+
+# Local configuration
+*.local

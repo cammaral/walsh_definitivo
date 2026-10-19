@@ -1,0 +1,127 @@
+{
+  "backend_name": "ibm_fez",
+  "candidate_nodes": [
+    136,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146
+  ],
+  "created_utc": "2026-07-11T12:07:11.627445+00:00",
+  "initial_layout": [
+    145,
+    141,
+    136,
+    142,
+    143,
+    144,
+    146
+  ],
+  "layout_hash": "946e111f76824f0c",
+  "max_readout_error": 0.05,
+  "max_two_qubit_error": 0.02,
+  "reference_training_seed": 0,
+  "restricted_directed_edges": [
+    [
+      136,
+      143
+    ],
+    [
+      141,
+      142
+    ],
+    [
+      142,
+      141
+    ],
+    [
+      142,
+      143
+    ],
+    [
+      143,
+      136
+    ],
+    [
+      143,
+      142
+    ],
+    [
+      143,
+      144
+    ],
+    [
+      144,
+      143
+    ],
+    [
+      144,
+      145
+    ],
+    [
+      145,
+      144
+    ],
+    [
+      145,
+      146
+    ],
+    [
+      146,
+      145
+    ]
+  ],
+  "routing_seed": 20261809,
+  "selection_row": {
+    "active_physical_qubits": [
+      136,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146
+    ],
+    "active_qubit_count": 7,
+    "analytic_success_probability": 0.08561658696485265,
+    "attempt_index": 7,
+    "candidate_nodes": "136,141,142,143,144,145,146",
+    "candidate_valid": true,
+    "circuit_duration_s": 1.0860000000000011e-05,
+    "error_message": "",
+    "final_logical_to_physical": [
+      143,
+      146,
+      136,
+      141,
+      142,
+      145,
+      144
+    ],
+    "initial_layout": "145,141,136,142,143,144,146",
+    "inside_selected_subgraph": true,
+    "isa_depth": 265,
+    "isa_size": 668,
+    "isa_state_fidelity": 0.9999999999999998,
+    "isa_success_probability": 0.08561658696485287,
+    "isa_success_probability_abs_error": 2.220446049250313e-16,
+    "isa_tv_to_analytic": 2.590707867417691e-15,
+    "isa_two_qubit_depth": 98,
+    "isa_two_qubit_gates": 119,
+    "log_success_proxy": -0.2906358919455906,
+    "mapping_rank": 1,
+    "mapping_score": 105.64130442584755,
+    "max_readout_error": 0.01025390625,
+    "max_two_qubit_error": 0.0025877497802090643,
+    "routing_seed": 20261809,
+    "routing_trial": 0,
+    "static_score": 0.017230667163754477,
+    "subgraph_rank": 1,
+    "success_proxy": 0.7477879040540933,
+    "transpile_wall_s": 0.026252458003000356,
+    "validation_ok": true,
+    "weighted_two_qubit_error": 0.25056594479787875
+  }
+}

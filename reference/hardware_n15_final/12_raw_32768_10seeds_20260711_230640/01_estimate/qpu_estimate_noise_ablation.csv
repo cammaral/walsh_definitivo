@@ -1,0 +1,3 @@
+profile,num_circuits,requested_shots_per_circuit,effective_shots_per_circuit,num_randomizations,shots_per_randomization,dd_enable,dd_sequence,gate_twirling,measurement_twirling,readout_mitigation,zne,raw_payload_s,margin_factor,estimated_usage_s,estimated_usage_min
+raw,10,32768,32768.0,0.0,0.0,False,,False,False,False,False,3.558604800000004,1.0,5.558604800000004,0.0926434133333334
+TOTAL,10,32768,,,,,,,False,False,False,3.558604800000004,,5.558604800000004,0.0926434133333334

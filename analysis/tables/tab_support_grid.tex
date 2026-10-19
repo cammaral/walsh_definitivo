@@ -1,0 +1,21 @@
+\begin{table}[!h]
+\centering
+\caption{Base-mask values $B$ and resulting active-support sizes $\lvert\mathcal{A}\rvert$ used in the support-scaling experiment. The final entry for each graph size is the first value $B_{\mathrm{sat}}$ for which the paired support reaches the complete Walsh basis.}
+\label{tab:support_grid}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{rll}
+\toprule
+$m$ & $B$ & resulting $\lvert\mathcal{A}\rvert$ \\
+\midrule
+100 & $1,2,4,8,16,23$ & $101,202,324,409,494,512$ \\
+200 & $1,2,4,8,16,32,33$ & $201,400,616,798,983,1021,1024$ \\
+400 & $1,2,4,8,16,32,34$ & $401,802,1271,1727,1986,2046,2048$ \\
+500 & $1,2,4,8,16,32,61$ & $501,792,1407,2699,3592,4070,4096$ \\
+800 & $1,2,4,8,16,32,37$ & $801,1602,2556,3556,4011,4095,4096$ \\
+2,000 & $1,2,4,8,16,32,64,89$ & $2001,3834,6889,10042,14607,16211,16380,16384$ \\
+7,000 & $1,2,4,8,16,32,64,85$ & $7001,14002,23104,41981,55126,63676,65521,65536$ \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

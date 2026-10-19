@@ -1,0 +1,18 @@
+\begin{table}[!h]
+\centering
+\caption{Performance of the complete Walsh basis on the held-out random-graph evaluation set. The reported standard deviation is pooled over graph instances and coefficient initializations.}
+\label{tab:full_basis_performance}
+\begin{tabular}{rrrcccc}
+\toprule
+$m$ & $q$ & $k$ & $\overline{\mathrm{AR}}\pm\sigma$ & $p_5$ & \emph{best-of-10} & $\mathrm{AR}\geq0.98$ \\
+\midrule
+100 & 9 & 4 & $0.9762 \pm 0.0135$ & $0.9515$ & $0.9923$ & $0.419$ \\
+200 & 10 & 5 & $0.9759 \pm 0.0099$ & $0.9583$ & $0.9892$ & $0.364$ \\
+400 & 11 & 5 & $0.9765 \pm 0.0072$ & $0.9649$ & $0.9867$ & $0.318$ \\
+500 & 12 & 6 & $0.9752 \pm 0.0065$ & $0.9643$ & $0.9843$ & $0.241$ \\
+800 & 12 & 6 & $0.9826 \pm 0.0054$ & $0.9735$ & $0.9900$ & $0.695$ \\
+2,000 & 14 & 7 & $0.9792 \pm 0.0033$ & $0.9737$ & $0.9841$ & $0.403$ \\
+7,000 & 16 & 8 & $0.9860 \pm 0.0066$ & $0.9793$ & $0.9887$ & $0.894$ \\
+\bottomrule
+\end{tabular}
+\end{table}

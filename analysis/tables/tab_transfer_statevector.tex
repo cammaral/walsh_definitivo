@@ -1,0 +1,18 @@
+\begin{table}[H]
+\centering
+\caption{Quantum-transfer validation by statevector simulation at $\epsilon=0.02$ for the training run with the highest raw AR of each instance. We report post-selection success probability, fidelity to the target function state, TV distance, mean and maximum absolute correlator errors relative to the classical calculation, sign agreement, and raw and refined empirical ARs. The cut difference from the classical solution was zero for all instances.}
+\label{tab:transfer_statevector}
+\setlength{\tabcolsep}{3.5pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccccccc}
+\toprule
+Instance & $P_{\rm succ}$ & fidelity & TV & corr. MAE & corr. max AE & sign agreement & raw AR & refined AR \\
+\midrule
+G14 & $1.0e-04$ & $0.999981$ & $1.4e-05$ & $1.1e-06$ & $5.5e-06$ & $1.000$ & $0.9827$ & $0.9879$ \\
+G23 & $1.0e-04$ & $0.999949$ & $2.3e-05$ & $1.3e-06$ & $4.9e-06$ & $1.000$ & $0.9898$ & $0.9957$ \\
+G60 & $1.0e-04$ & $0.999950$ & $2.5e-05$ & $8.1e-07$ & $3.5e-06$ & $1.000$ & $0.9772$ & $0.9808$ \\
+G64 & $1.0e-04$ & $0.999953$ & $2.3e-05$ & $7.0e-07$ & $2.9e-06$ & $1.000$ & $0.9330$ & $0.9491$ \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

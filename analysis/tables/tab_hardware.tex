@@ -1,0 +1,19 @@
+\begin{table}[H]
+\centering
+\caption{Hardware validation of the $m=15$ instance on \texttt{ibm\_fez} ($\epsilon=0.6$, $32{,}768$ shots, of which about $5{,}500$ survive post-selection, $10$ initializations). All distribution- and correlator-level errors are evaluated relative to the exact noiseless finite-$\epsilon$ circuit with the same trained coefficients, not to the ideal Walsh target; empirical ARs are reported as mean $\pm$ standard deviation.}
+\label{tab:hardware}
+\begin{tabular}{lc}
+\toprule
+Metric & Value \\
+\midrule
+Success probability & $0.169 \pm 0.004$ \\
+TV distance to noiseless & $0.253 \pm 0.011$ \\
+Correlator MAE to noiseless & $0.141 \pm 0.010$ \\
+Sign agreement with noiseless & $0.927 \pm 0.049$ \\
+Raw AR & $0.917 \pm 0.068$ \\
+Refined AR & $0.950 \pm 0.043$ \\
+Noiseless-cut match (raw) & $7/10$ \\
+Noiseless-cut match (refined) & $10/10$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,5 @@
+instance,init_seed,raw_cut,raw_AR,local_cut,local_AR,npz
+G14,110,2977.0,0.9716057441253264,3018.0,0.9849869451697127,results/stage_05_B1_oldinit/coefficients/G14/G14_seed110.npz
+G23,11,13124.0,0.9835131894484412,13230.0,0.991456834532374,results/stage_05_B1_oldinit/coefficients/G23/G23_seed011.npz
+G60,77,13895.0,0.9793487454186636,13961.0,0.9840005638567804,results/stage_05_B1_oldinit/coefficients/G60/G60_seed077.npz
+G64,44,8053.0,0.9202376871214718,8278.0,0.945949034396069,results/stage_05_B1_oldinit/coefficients/G64/G64_seed044.npz

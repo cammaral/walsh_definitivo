@@ -1,0 +1,10 @@
+{
+  "validation_er": 0.02,
+  "sampling_er": 0.2,
+  "strict_criteria": {
+    "min_state_fidelity": 0.999,
+    "max_target_tv": 0.02,
+    "min_correlator_sign_agreement": 1.0,
+    "min_raw_spin_agreement": 1.0
+  }
+}

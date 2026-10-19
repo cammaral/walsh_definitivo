@@ -1,0 +1,3 @@
+instance,init_seed,raw_cut,raw_AR,local_cut,local_AR,npz
+G14,44,3001.0,0.97943864229765,3014.0,0.9836814621409922,results/stage_05_B2_oldinit_beta050/coefficients/G14/G14_seed044.npz
+G23,33,13241.0,0.992281175059952,13310.0,0.9974520383693044,results/stage_05_B2_oldinit_beta050/coefficients/G23/G23_seed033.npz

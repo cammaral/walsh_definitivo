@@ -1,0 +1,12 @@
+# Scientific dependencies identified in the project (NOT a historical lockfile).
+# For exact version reproduction, recover the original pip freeze from the run environment.
+numpy
+pandas
+networkx
+torch
+tqdm
+pennylane
+matplotlib
+scipy
+IPython
+notebook

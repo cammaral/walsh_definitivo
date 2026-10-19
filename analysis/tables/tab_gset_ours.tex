@@ -1,0 +1,18 @@
+\begin{table}[!h]
+\centering
+\caption{Single-base $B=1$ model on the Gset instances. The table reports the encoding $(q,k)$, number of active coefficients $\lvert\mathcal{A}\rvert=m+1$ relative to the complete basis $2^q$, parameter reduction, and raw and refined empirical ARs (mean $\pm$ standard deviation and best value over $10$ initializations).}
+\label{tab:gset_ours}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+Instance & $(q,k)$ & $\lvert\mathcal{A}\rvert\,/\,2^q$ & reduction & raw AR & best & refined AR & best \\
+\midrule
+G14 & $(12,6)$ & $801\,/\,4,096$ & $80.4\%$ & $0.9698 \pm 0.0062$ & $0.9827$ & $0.9828 \pm 0.0029$ & $0.9879$ \\
+G23 & $(14,7)$ & $2,001\,/\,16,384$ & $87.8\%$ & $0.9874 \pm 0.0016$ & $0.9898$ & $0.9926 \pm 0.0016$ & $0.9957$ \\
+G60 & $(16,8)$ & $7,001\,/\,65,536$ & $89.3\%$ & $0.9746 \pm 0.0015$ & $0.9772$ & $0.9781 \pm 0.0016$ & $0.9808$ \\
+G64 & $(16,8)$ & $7,001\,/\,65,536$ & $89.3\%$ & $0.9195 \pm 0.0060$ & $0.9330$ & $0.9369 \pm 0.0058$ & $0.9491$ \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
